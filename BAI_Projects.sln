@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29326.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "week1_BuzzGame", "MathFloor_BAI\week1_BuzzGame.csproj", "{CCD32B84-8AB1-48C4-8956-2C4192E6158B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "week2_integerArray60", "week2_integerArray60\week2_integerArray60.csproj", "{40FE8659-7FEB-4908-8FD4-8EFA2EB9311F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCD32B84-8AB1-48C4-8956-2C4192E6158B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCD32B84-8AB1-48C4-8956-2C4192E6158B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCD32B84-8AB1-48C4-8956-2C4192E6158B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCD32B84-8AB1-48C4-8956-2C4192E6158B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40FE8659-7FEB-4908-8FD4-8EFA2EB9311F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40FE8659-7FEB-4908-8FD4-8EFA2EB9311F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40FE8659-7FEB-4908-8FD4-8EFA2EB9311F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40FE8659-7FEB-4908-8FD4-8EFA2EB9311F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {76BA27BD-ABFE-4472-8C21-D4040D51C2F4}
+	EndGlobalSection
+EndGlobal
