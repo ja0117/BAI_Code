@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "week1_BuzzGame", "MathFloor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "week2_integerArray60", "week2_integerArray60\week2_integerArray60.csproj", "{40FE8659-7FEB-4908-8FD4-8EFA2EB9311F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "week4_Logica", "week4_Logica\week4_Logica.csproj", "{118CB8E9-A03B-4753-A522-89B2A086DEAC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{40FE8659-7FEB-4908-8FD4-8EFA2EB9311F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40FE8659-7FEB-4908-8FD4-8EFA2EB9311F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40FE8659-7FEB-4908-8FD4-8EFA2EB9311F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{118CB8E9-A03B-4753-A522-89B2A086DEAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{118CB8E9-A03B-4753-A522-89B2A086DEAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{118CB8E9-A03B-4753-A522-89B2A086DEAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{118CB8E9-A03B-4753-A522-89B2A086DEAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

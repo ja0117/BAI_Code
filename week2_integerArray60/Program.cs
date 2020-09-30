@@ -10,7 +10,7 @@ namespace week2_integerArray60
     {
         static void Main(string[] args)
         {
-            Oefening2();
+            List_Opgave4();
         }
         public void Oefening1()
         {
@@ -57,8 +57,8 @@ namespace week2_integerArray60
 
             kleinsteAantal = eenNaKleinsteAantal = 0;
             kleinste = eenNaKleinste = MAX;
-
-            // Get Index with smallest number and second to smallest number  n
+            
+            // Get Index with smallest number and second to smallest number  nw
             foreach (int getal in getallen)
             {
                 if (getal < kleinste)
@@ -82,5 +82,24 @@ namespace week2_integerArray60
             Console.ReadLine();
         }
 
+        public static void List_Opgave4()
+        {
+            List<int> lijst = new List<int>();
+            for (int i = 0; i < 10; i++)
+            {
+                lijst.Add(i);
+            }
+            double som = 0;
+            foreach (int num in lijst)
+            {
+                som += num;
+            }
+            Console.WriteLine($"Gemiddelde is {som / lijst.Count}");
+            for (int index = 9; index >= 0; index--)
+            {
+                Console.Write($" {lijst[index]} ");
+            }
+            Console.ReadLine();
+        }
     }
 }
