@@ -8,8 +8,9 @@ namespace week4_Logica
         static void Main(string[] args) {
 
             //Console.WriteLine(Oefening5BBitShift(6).ToString());
-            Oefening7C('p');
-            Oefening7C();
+            //Oefening7C('p');
+            //Oefening7C();
+            Bitwise();
         }
 
 
@@ -55,7 +56,7 @@ namespace week4_Logica
 
         static bool Oefening7C(char c) {
             int x = Convert.ToInt32(c);
-            if ((x >> 6) == 1) {
+            if ((x >> 5) == 1) {
                 return true; 
             }
             return false;
@@ -66,6 +67,38 @@ namespace week4_Logica
             Console.WriteLine((char)('A' & ~32));
             Console.WriteLine((char)('B' | 32));
             Console.WriteLine((char)('B' & ~32));
+        }
+
+        // Huiswerk gedeelte:
+
+        static void Bitwise() {
+            int somVrouw = 0;
+            int somMan = 0;
+            for (int i = 0; i <= 0xFF; i++) {
+                if ((i & 1) == 0) {
+                    // first byte is corrupt!
+                    continue;
+                }
+                else {
+                    var result = (i >> 1) & 3;
+                    if (result == 1) {
+                        Console.WriteLine(i + " is Valid en Groen");
+                        result = (i >> 3) & 1;
+                        if (result == 0) {
+                            somMan += (i >> 4) & 15;
+                        }
+                    }
+                    else if (result == 2) {
+                        Console.WriteLine(i + " is Valid en Oranje");
+                        result = (i >> 3) & 1;
+                        if (result == 1) {
+                            somVrouw += (i >> 4) & 15;
+                        }
+                    }
+                }
+            }
+            Console.WriteLine($"Som man = {somMan}");
+            Console.WriteLine($"Som vrouw = {somVrouw}");
         }
     }
 }
